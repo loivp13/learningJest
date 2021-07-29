@@ -1,0 +1,17 @@
+{
+  "name": "learnjest",
+  "version": "1.0.0",
+  "description": "learning jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --colors"
+  },
+  "keywords": [
+    "jest"
+  ],
+  "author": "loivp",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.0.6"
+  }
+}
