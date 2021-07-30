@@ -110,32 +110,7 @@ describe("damageShip", function () {
 
 describe("attackShip", function () {
   let attackShip = require("../game_logic/ship_methods").attackShip;
-  let player = {
-    ships: [
-      {
-        locations: [
-          [0, 0],
-          [0, 1],
-        ],
-        damageShip: [],
-      },
-      {
-        locations: [
-          [1, 1],
-          [1, 2],
-        ],
-        damageShip: [],
-      },
-      {
-        locations: [
-          [3, 1],
-          [3, 2],
-          [3, 3],
-        ],
-        damageShip: [],
-      },
-    ],
-  };
+  let player;
   beforeEach(() => {
     player = {
       ships: [
